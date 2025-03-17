@@ -1,0 +1,103 @@
+@media screen and (max-width : 922px) {
+   .hero-tegline h1{
+      line-height: 60px;
+     }
+  
+  .img-hero {
+      width: 80%;
+      height: auto;
+     }
+   .hero-tegline p{
+      width: 45%;
+      height: auto;
+     } 
+
+     h2{
+      font-size: 40px;
+   }
+  
+   .sub-title{
+      font-size: 16px;
+   }
+  
+  .card-info{
+     width: 100%;
+      margin: 15px 10px;
+  }
+  
+  .card-info:hover{
+     width: 88%;
+     margin:15px 10px;
+  }
+
+  .input-cari .button-primary{
+   height: 60px;
+   width: 15%;
+   font-size: 13px;
+}
+}
+
+@media screen and (max-width : 576px) {
+.hero-tegline h1{
+    line-height: 52px;
+   }
+
+.img-hero {
+    width: 75%;
+    height: auto;
+   }
+ .hero-tegline p{
+    width: 40%;
+    height: auto;
+   }
+
+ h2{
+    font-size: 30px;
+ }
+
+ .sub-title{
+    font-size: 16px;
+ }
+
+.card-info{
+   width: 88%;
+    margin: 15px 10px;
+}
+
+.card-info:hover{
+   width: 88%;
+   margin:15px 10px;
+}
+
+#Pencari h2{
+font-size: 36px;
+line-height: 40px;
+}
+
+#Pencari p{
+   font-size: 18px;
+   line-height: 20px;
+  
+}
+
+.input-cari .button-secondary{
+   width: 200px;
+   height: 60px;
+ 
+}
+
+.input-cari .button-primary{
+   height: 60px;
+   width: 15%;
+   font-size: 15px;
+
+}
+
+.input-cari .form-control{
+   height: 60px !important;
+   
+}
+}
+@media screen and (max-width : 350px) {
+    
+}

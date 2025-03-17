@@ -1,0 +1,664 @@
+:root{
+    --pr-color: #0A6847;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+background-color:var(--pr-color);
+}
+
+/* navbar staly */
+
+.navbar{
+    z-index: 3;
+}
+
+/* navbar color */
+.navbar{
+    background-color: #7ABA78;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent{
+    transition: all ease-in 0.3s;
+}
+
+*{
+    z-index: 2;
+}
+
+.img-hero{
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.nav-link{
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight:600;
+}
+
+.button-secondary{
+    width: 120px;
+    height: 40px;
+    background-color: #FFFFFF;
+    color: var(--pr-color);
+    border:none;
+    font-size:16px;
+    font-weiht:700px;
+
+}
+
+.button-primary{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color:#FFFFFF;
+    border:none;
+    font-size:16px;
+    font-weiht:400px;
+}
+    
+/* hero section */
+
+#hero {
+    background: linear-gradient(148deg, var(--pr-color) 60%, #FFD864 100%);
+    height: 100vh;
+    width: 100%;
+  
+}
+
+.img-hero{
+    height: 70%;
+    
+}
+
+.hero-tegline h1{
+    color: #FCCA11;
+    font-weight: 700;
+    font-size: 57px;
+    margin-top: 15px;
+    line-height: 90x;
+    width: 100%
+}
+
+.hero-tegline p{
+    font-size: 20px;
+    color:#FFFFFF;
+    margin-botton: 60px;
+    margin-top: 15px;
+    line-height: 30px;
+    width: 70%;
+
+}
+
+.button-lg-primary {
+    width: 90px;
+    height: 24px;
+    background-color:var(--pr-color);
+    color:#FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 700px;
+    margin-top: 10px;
+  
+}
+
+ /* info sehat  */
+
+ #info{
+    padding: 100px 0;
+ }
+
+ #info h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: #FCCA11;
+ }
+
+ .sub-title{
+    font-size: 20px;
+    color: #ffffff;
+ }
+    
+ .card-info{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0,05);
+    transition: all .2s ease-in;
+ }
+
+ .card-info h3{
+    color:var(--pr-color);
+    font-size: 20px;
+    transition: all .4s ease-in;
+    
+ }
+
+#info a{
+    font-weight: normal;
+    font-size: 20px ;
+    line-height: 18px;
+    color: var(--pr-color);
+    text-decoration: none;
+    margin-left: 18px;
+ }
+
+ /* kondisi ketika tidak di klik atau hover*/
+
+ .card-info:hover{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color:#FCCA11;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0,05);
+    transition: all .2s ease-in;
+ }
+
+ .card-info:hover h3{
+    color: var(--pr-color);
+    font-size: 20px;
+    transition: all .4s ease-in;
+ }
+
+ /* alamat section */
+
+ #alamat{
+    background-image: url(../aset/img/image\ 13.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:200px 100px 200px 100px ;
+}
+
+.card-kotak{
+    width: 2111px;
+    height: 70vh;
+    background-color:  rgba(39, 90, 43, 0.708);
+    padding: 20px 0 0 20px ;
+}
+
+ #alamat h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FCCA11;
+    border: #ffffff;
+    
+ }
+
+ #alamat p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:var(--pr-color);
+    
+ }
+
+ .sub-title{
+    font-size: 20px;
+    color: #ffffff;
+ }
+    
+ .card-alamat{
+    width: 575px;
+    height: 410px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0,05);
+    transition: all .2s ease-in;
+    
+ }
+
+ .card-alamat h3{
+    color:var(--pr-color);
+    font-size: 16px;
+    transition: all .4s ease-in;
+ }
+
+/* rekomendasi menu */
+
+.card {
+    height: 350px;
+    width:380px ;
+    border: none;
+    
+}
+
+
+#menu h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FCCA11;
+    
+}
+
+.card-body h4{
+    color: var(--pr-color);
+    font-weight: 600;
+    font-size:20px ;
+    line-height: .8rem;
+}
+
+
+
+#menu p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align:center;
+    color:#ffffff;
+}
+
+.button-lg-primary {
+    width: 90px;
+    height: 24px;
+    background-color:var(--pr-color);
+    color:#FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 700px;
+    margin-top: 10px;
+}
+
+#menu a{
+
+}
+/* rekomendasi menu ketika offer */
+
+.card:hover{
+    background: #FCCA11;
+    box-shadow:o 10px 20px rgba(0, 0, 0, 0,25)
+}
+
+/* /* .card:hover .card-body h4{
+    color:#ffffff;
+    transition: all ease-in-out .4s; 
+    
+} */
+
+.card-body:hover .button-lg-primary {
+    background-color:#ffffff;
+    color:var(--pr-color);
+    transition: all ease-in-out .2s;
+}
+
+
+
+ /* section promo */
+
+/* /*  promo */
+
+#promo h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align:start;
+    color: #FCCA11;
+
+}
+
+#promo p{
+    font-size: 24px;
+    font-weight: 400px;
+    color:#FFFFFF;
+}
+
+#promo a{
+    font-size: 24px;
+    font-weight: 400px;
+    color:#FFFFFF;
+    text-decoration: none;
+
+}
+
+.card-promo h5{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 600px;
+
+}
+
+.card-promo button{
+    background-color: #FFBF00 ;
+    color: #FFFFFF;
+    border: none;
+    width:124px ;
+    height: 31px;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.card-promo .overlay {
+    background-color: rgba(50, 115, 67, 0);
+    height: 2px;
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-promo .overlay:hover {
+    background-color: rgba(50, 115, 67, 0.7);
+    height: 2px;
+    opacity: 1;
+   }
+
+.card-promo button{
+    background-color: #FFBF00 ;
+    color: #FFFFFF;
+    border: none;
+    width:124px ;
+    height: 31px;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.button-arrow-left {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color:var(--pr-color) ;
+    padding: 0;
+}
+
+.button-arrow-right {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color:var(--pr-color) ;
+    padding: 0;
+}
+
+
+
+/* layanan */
+#layanan{
+    padding: 100px 0;
+ }
+
+#layanan h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: #FCCA11;
+ }
+
+ .sub-title{
+    font-size: 24px;
+    color: #ffffff;
+ }
+    
+ .card-layanan{
+    width: 376px;
+    height: 313px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0,05);
+    transition: all .2s ease-in;
+ }
+
+ .card-layanan h3{
+    color:var(--pr-color);
+    font-size: 20px;
+    transition: all .4s ease-in;
+ }
+
+ .card-layanan button{
+    background-color:var(--pr-color);
+    color: #FFFFFF;
+    border: none;
+    width:124px ;
+    height: 31px;
+    font-size: 16px;
+    font-weight: 500px;
+ }
+
+ /* kondisi ketika tidak di klik atau hover*/
+
+ .card-layanan:hover{
+    width: 376px;
+    height: 313px;
+    border-radius: 5px;
+    background-color: #FCCA11 ;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0,05);
+    transition: all .2s ease-in;
+ }
+
+ /* .card-layanan:hover h3{
+    color:#FFFFFF;
+    font-size: 20px;
+    transition: all .4s ease-in;
+ } */
+
+ .card-layanan:hover button{
+    background-color:#FFFFFF;
+    color: var(--pr-color);
+    transition: all .2s ease-in;
+ }
+
+/* kontak */
+#Kontak{
+   
+    background-image:url(../aset/img/kontak.png);
+    height: 100%;
+    margin-top: 105px;
+    padding:148px 100px 148px 370px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Kontak h2{
+    font-weight: 600;
+    font-size: 56px ;
+    line-height: 60px;
+    color: #FFFFFF;
+
+}
+
+#Kontak h3{
+    font-weight: 600;
+    font-size: 56px ;
+    line-height: 60px;
+    color: #FFFFFF;
+    
+
+}
+
+#Kontak a{
+    font-weight: normal;
+    font-size: 20px ;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+#Kontak h4{
+    font-weight: normal;
+    font-size: 20px ;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+/* footer */
+ footer{
+    
+    width: 100%;
+    height: 270px;
+    background: #000;;
+ }
+
+.copyright {
+    bottom:1%;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    
+}
+
+footer a{
+    font-weight: normal;
+    font-size: 16px ;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 18px;
+    text-decoration: none;
+}
+
+/* profil perusahaan */
+
+#perusahaan h2{
+    font-weight: 600;
+    font-size: 56px ;
+    line-height: 60px;
+    color: #FFFFFF;
+
+}
+
+/* haki */
+
+#haki h5{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FCCA11;
+
+}
+
+#haki p{
+    font-size: 24px;
+    font-weight: 400px;
+    color:#FFFFFF;
+}
+
+.img-haki{
+    height: 50%;
+}
+
+/* tim */
+#tim h5{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FCCA11;
+
+}
+
+
+#tim p{
+    font-size: 24px;
+    font-weight: 400px;
+    color:#FFFFFF;
+}
+
+
+/* alamat halaman lain */
+#al h5{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FCCA11;
+
+}
+
+
+#al p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:var(--pr-color);
+}
+
+/* #al .p1{
+    font-size: 24px;
+    font-weight: 400px;
+    color:#FFFFFF;
+} */
+
+
+/* telpon */
+#telpon{
+    padding: 100px 0;
+ }
+
+#telpon h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: #FCCA11;
+ }
+
+ .sub-title{
+    font-size: 24px;
+    color: #ffffff;
+ }
+    
+ .card-telpon{
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0,05);
+    transition: all .2s ease-in;
+ }
+
+ .card-telpon h3{
+    color:var(--pr-color);
+    font-size: 20px;
+    transition: all .4s ease-in;
+ }
+
+ .card-telpon button{
+    background-color:var(--pr-color);
+    color: #FFFFFF;
+    border: none;
+    width:124px ;
+    height: 31px;
+    font-size: 16px;
+    font-weight: 500px;
+ }
